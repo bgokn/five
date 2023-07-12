@@ -160,8 +160,8 @@ def get_geetest_v4_captcha(params):
         'passToken': json_data['pass_token']
     }
 
-address = '0x83093568f02E9570D4BeA1A4b9eE71dAbb8f8677'
-key = 'd0885e2ccaeabb662021ae641cc602784309721ccaf9a5d56ae76a37bdd563be'
+address = ''
+key = ''
 
 auth_helper = AuthHelper(address, key)
 sign_message = auth_helper.generate_message()
